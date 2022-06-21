@@ -4,16 +4,14 @@
   "info": {
     "singularName": "bookmark",
     "pluralName": "bookmarks",
-    "displayName": "bookmark"
+    "displayName": "Bookmark",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "label": {
-      "type": "string"
-    },
     "users_permissions_user": {
       "type": "relation",
       "relation": "manyToOne",
@@ -22,6 +20,9 @@
     },
     "savedRecipe": {
       "type": "json"
+    },
+    "savedRecipeID": {
+      "type": "integer"
     }
   }
 }
